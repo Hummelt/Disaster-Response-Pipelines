@@ -8,9 +8,11 @@ def load_data(messages_filepath, categories_filepath):
     '''
     Function to read two csv files containing messages and categories and store, merge and return a dataframe.
     Categories are split up into separate category columns with 1 or 0 flags as values
+
     Inputs:
     - csv file and path containing messages
     - csv file and path containing categories
+
     Output:
     - Dataframe "df" containing the data of both input files
     '''
@@ -42,7 +44,9 @@ def load_data(messages_filepath, categories_filepath):
 def clean_data(df):
     '''
     Function to take in a dataframe and cleans it by removing empty entries and duplicates
+
     Input: Dataframe
+
     Output: Clean dataframe
     '''
 
@@ -58,9 +62,11 @@ def clean_data(df):
 def save_data(df, database_filename):
     '''
     Function to receive dataframe and saves it to an SQL database
+
     INPUT:
     - dataframe
     - name and filepath for the SQL database
+
     OUTPUT: None
     '''
 
