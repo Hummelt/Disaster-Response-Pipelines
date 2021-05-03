@@ -56,7 +56,7 @@ The data is provided from Udacity and Figure Eight.
 Instructions to use the application on a local computer:
 
 - Run the following commands in the project's root directory to set up database and model
-- Run ETL pipeline
-- Run ML pipeline
-- Run the following command in the command line in the app's directory
+- Run ETL pipeline: python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+- Run ML pipeline: python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+- Run the following command in the command line in the app's directory: python run.py
 - Open new web browser and go to http://0.0.0.0:3001/
