@@ -1,9 +1,9 @@
 # Disaster-Response-Pipelines
-## Web application dashboard with NLP based machine learning ETL pipeline
+### Web application dashboard with NLP based machine learning ETL pipeline
 
 ![Pipeline](https://files.realpython.com/media/Use-Sentiment-Analysis-With-Python-to-Classify-Reviews_Watermarked.e73ba441d870.jpg)
 
-### Libraries
+## Libraries
 Following libraries are used in the system development:
 
 - sys
@@ -14,10 +14,10 @@ Following libraries are used in the system development:
 - pickle
 - sklearn
 
-### Objectives
+## Objectives
 The main purpose of the ETL Disaster Response Pipeline is to separate dispatches through an algorithm and displaying the result on the screen. This is helpting to streamline the process of prioritizing messages and supplying a fast overview of the possible content (disaster category).  The application is based on NLP processing of existing messages. The machine learning process initially analyses texts which are flagged with disaster category labels and learns in this way to predict which text is linked to which disaster class.
 
-### Approach
+## Approach
 
 The ETL pipeline was initially drafted and tested in Jupyter Notebooks, then transfered to files which were in the end responsible to perform the training process.
 
