@@ -55,20 +55,7 @@ The data is provided from Udacity and Figure Eight.
 ## Project Structure
 The files in this project are stored in the following structure
 
-app
-| - template
-| |- master.html # main page of web app
-| |- go.html # classification result page of web app
-|- run.py # Flask file that runs app
-data
-|- disaster_categories.csv # data to process
-|- disaster_messages.csv # data to process
-|- process_data.py
-|- InsertDatabaseName.db # database to save clean data to
-models
-|- train_classifier.py
-|- classifier.pkl # saved model
-README.md
+![structure](struct.png)
 
 ## Instructions
 Instructions to use the application on a local computer:
