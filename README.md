@@ -55,7 +55,7 @@ The data is provided from Udacity and Figure Eight.
 ## Project Structure
 The files in this project are stored in the following structure
 
-![structure](structure.jpg)
+![structure](struct.png)
 
 ## Instructions
 Instructions to use the application on a local computer:
