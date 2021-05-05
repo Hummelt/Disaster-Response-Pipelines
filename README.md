@@ -50,7 +50,7 @@ This process is executed in train_classifier.py and prepared in the Jupyter note
 Instructions for how to execute the app is at the end of this README.
 
 ## Data
-The data is provided from Udacity and Figure Eight.
+The data is provided by Udacity and Figure Eight.
 
 ## Project Structure
 The files in this project are stored in the following structure
